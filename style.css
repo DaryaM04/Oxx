@@ -206,6 +206,17 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .skills__list li{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hardSkills-itemHead{
+    font-size: 14px;
+  }
+
   
   .projects__list {
     display: flex;
@@ -226,6 +237,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
+    border: 3px solid white;
   }
   
   .projects__info {
@@ -240,9 +252,9 @@
     padding: 96px 48px;
     background-image: linear-gradient(
       to top,
+      rgba(34, 37, 42, 0.6),
       rgba(34, 37, 42, 0.7),
-      rgba(34, 37, 42, 0.8),
-      rgba(34, 37, 42, 0.9)
+      rgba(34, 37, 42, 0.8)
     );
   }
   
